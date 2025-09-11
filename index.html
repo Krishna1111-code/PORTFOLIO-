@@ -1,123 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Electrolize&family=Libertinus+Keyboard&family=Share+Tech&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
 </head>
+
 <body>
+    <div class="background-video">
+        <video autoplay loop muted playsinline>
+            <source src="small-vecteezy_animated-abstract-dark-background-glowing-random-dots-and_33856865_small.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#about">Skill</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="hero-section">
-            <p class="location">BASED IN GUJARAT, INDIA</p>
-            <h1>Web Developer</h1>
-            <p class="description">Hi, I'm Rahul Mishra. A dedicated frontend professional exploring backend technologies to build robust, full-stack websites.</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn primary">See My Projects <i class="fas fa-chevron-right"></i></a>
-                <a href="#" class="btn secondary">Download Resume <i class="fas fa-download"></i></a>
-            </div>
-            <div class="social-links">
-                <a href="#"><i class="far fa-envelope"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </section>
-        <section class="tech-stack-section">
-            <h2>My Tech Stack</h2>
-            <p class="tech-stack-description">I'm proficient in a range of modern technologies that empower me to build highly functional solutions.</p>
-            <div class="tech-stack-grid">
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript icon">
-                    <div>
-                        <h3>JavaScript</h3>
-                        <p>Programming Language</p>
+    <div data-scroll-container>
+        <main>
+            <section id="home" class="hero-section">
+                <p style="font-size: 30px; padding-bottom: 30px; font-family: Electrolize;"> 💗 HELLO I AM KRISHNA 💗</p>
+                <h1>Web Developer</h1>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">MERN STACK DEVELOPER</a>
+                    <a href="#" class="btn secondary">Resume <i class="fas fa-download"></i></a>
+                </div>
+                <p class="location">BASED IN GUJARAT, INDIA</p>
+                <div class="social-links">
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </section>
+            <section id="about-me" class="about-me-section">
+                <div class="about-me-left">
+                    <div class="about-me-image-placeholder">
+                        <!-- Image goes here --> <img id="image_2" src="WhatsApp Image 2025-09-06 at 13.43.43_80f50bfc.jpg" alt="">
+                        <h1 class="my-name">Krishna</h1>
                     </div>
                 </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript icon">
-                    <div>
-                        <h3>TypeScript</h3>
-                        <p>Programming Language</p>
+                <div class="about-me-right">
+                    <div class="about-me-card">
+                        <h3 style="font-family: Electrolize;">WHO I AM 🤔</h3>
+                        <p style="font-family: Electrolize; font-size: 15px;">I AM KRISHNA SHARMA A MERN STACK DEVELOPER</p>
+                    </div>
+                    <div class="about-me-card">
+                        <h3 style="font-family: Electrolize;">MY EDUCATION 🧑‍🎓</h3>
+                        <p style="font-family: Electrolize; font-size: 15px;">I AM A 2ND YEAR BTECH CSE STUDENT AT
+                            GANDHINAGAR UNIVERSITY LOCATED IN GANDHINAGAR GUJARAT INDIA</p>
+                    </div>
+                    <div class="about-me-card">
+                        <h3 style="font-family: Electrolize;">MY WORK EXPERIENCE 💪</h3>
+                        <p style="font-family: Electrolize; font-size: 15px;">I AM A VIBE CODER I KNOW HOW TO DESIGN
+                            WEBSITE HOW TO CODE AND HOW TO SOLVE PROBLEMS</p>
+                    </div>
+                    <div class="about-me-card">
+
                     </div>
                 </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java icon">
-                    <div>
-                        <h3>Java</h3>
-                        <p>Programming Language</p>
+            </section>
+            <section id="about" class="tech-stack-section">
+                <h2 id="tech_stack">🔥 TECH STACK 🔥</h2>
+                <div class="tech-stack-grid">
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Programming Language</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML5 icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Markup Language</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                            alt="CSS3 icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Stylesheet Language</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js icon">
+                        <div>
+                            <h3>Node.js</h3>
+                            <p>JavaScript Runtime</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                            alt="Express icon">
+                        <div>
+                            <h3>Express</h3>
+                            <p>Web Framework</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                            alt="MongoDB icon">
+                        <div>
+                            <h3>MongoDB</h3>
+                            <p>Database</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                            alt="SQL icon">
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Database Language</p>
+                        </div>
+                    </div>
+                    <div class="tech-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                            alt="Git icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Version Control</p>
+                        </div>
                     </div>
                 </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React icon">
-                    <div>
-                        <h3>React</h3>
-                        <p>JavaScript Library</p>
+            </section>
+            <section id="projects" class="personal-projects-section">
+                <h2 id="my_work">💫 MY WORK 💫</h2>
+                <p class="section-subheading"></p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image-placeholder"><img src="pexels-asphotograpy-1002703.jpg" alt=""></div>
+                        <h3 style="font-size: 18.5px;">PROJECT 1</h3>
+                        <!-- <p class="project-description">A Restaurant website to explore menu and order food items.</p> -->
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn link-btn"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"><img src="pexels-asphotograpy-1002703.jpg" alt=""></div>
+                        <h3 style="font-size: 18.5px;">PROJECT 2</h3>
+                        <!-- <p class="project-description">A personal portfolio to showcase my projects and skills.</p> -->
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>GSAP</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn link-btn"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"><img src="pexels-asphotograpy-1002703.jpg" alt=""></div>
+                        <h3 style="font-size: 18.5px;">PROJECT 3</h3>
+                        <!-- <p class="project-description">A personal portfolio to showcase my projects and skills.</p> -->
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>GSAP</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn link-btn"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"><img src="pexels-asphotograpy-1002703.jpg" alt=""></div>
+                        <h3 style="font-size: 18.5px;">PROJECT 4</h3>
+                        <!-- <p class="project-description">A personal portfolio to showcase my projects and skills.</p> -->
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>GSAP</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn link-btn"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"><img src="pexels-asphotograpy-1002703.jpg" alt=""></div>
+                        <h3 style="font-size: 18.5px;">PROJECT 5</h3>
+                        <!-- <p class="project-description">A personal portfolio to showcase my projects and skills.</p> -->
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>GSAP</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn link-btn"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"><img src="pexels-asphotograpy-1002703.jpg" alt=""></div>
+                        <h3 style="font-size: 18.5px;">PROJECT 6</h3>
+                        <!-- <p class="project-description">A personal portfolio to showcase my projects and skills.</p> -->
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>GSAP</span>
+                            <span>Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn link-btn"><i class="fas fa-globe"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js icon">
-                    <div>
-                        <h3>Next.js</h3>
-                        <p>React Framework</p>
-                    </div>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot icon">
-                    <div>
-                        <h3>Spring Boot</h3>
-                        <p>Java Framework</p>
-                    </div>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS icon">
-                    <div>
-                        <h3>Tailwind CSS</h3>
-                        <p>CSS Framework</p>
-                    </div>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js icon">
-                    <div>
-                        <h3>Node.js</h3>
-                        <p>JavaScript Runtime</p>
-                    </div>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express icon">
-                    <div>
-                        <h3>Express</h3>
-                        <p>Web Framework</p>
-                    </div>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB icon">
-                    <div>
-                        <h3>MongoDB</h3>
-                        <p>Database</p>
-                    </div>
-                </div>
-                <div class="tech-item">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git icon">
-                    <div>
-                        <h3>Git</h3>
-                        <p>Version Control</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
