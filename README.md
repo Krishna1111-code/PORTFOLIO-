@@ -1,5 +1,5 @@
 THIS IS VIBE CODED       🔥    
-<img width="1860" height="743" alt="image" src="https://github.com/user-attachments/assets/1f4233cf-7436-4fbe-88d6-4f1a3501ce59" />
+<img width="1904" height="902" alt="image" src="https://github.com/user-attachments/assets/1375fc74-d559-4a5f-8f5c-bf7b981c9598" />
 <img width="1877" height="578" alt="image" src="https://github.com/user-attachments/assets/eb21d3f5-95c9-4c87-930d-87f409ee5d07" />
 
 
