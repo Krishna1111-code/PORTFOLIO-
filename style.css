@@ -74,7 +74,7 @@ nav ul li a:hover {
 }
 
 .location {
-    font-size: 30px;
+    font-size: 15px;
     padding-bottom: 30px;
     font-family: Electrolize;
     color: #000; /* Black text */
@@ -329,7 +329,7 @@ img {
 
 .tech-tags span {
     background-color: #ddd; /* Lighter background */
-    color: #ff8c00; /* Orange text */
+    color: black; /* Orange text */
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 13px;
@@ -742,7 +742,7 @@ img {
     width: 100%;
     max-width: 400px;
     height: 400px;
-    background-color: #eee; /* Light grey placeholder */
+    background-color: white; /* Light grey placeholder */
     border-radius: 50%; /* Changed to circular */
     display: flex;
     flex-direction: column;
@@ -751,7 +751,7 @@ img {
     color: #555; /* Darker grey text */
     font-size: 20px;
     font-weight: 600;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); Lighter shadow */
     overflow: hidden;
     /* For blur effect */
 }
@@ -784,7 +784,7 @@ img {
 }
 
 .about-me-card {
-    background-color: rgba(238, 238, 238, 0.8); /* Semi-transparent light grey */
+    background-color: #333; /* Semi-transparent light grey */
     backdrop-filter: blur(10px);
     /* Blurry background effect */
     padding: 25px;
@@ -804,11 +804,139 @@ img {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #ff8c00; /* Orange color for headings */
+    color: white; /* Orange color for headings */
 }
 
 .about-me-card p {
     font-size: 16px;
     line-height: 1.6;
-    color: #333; /* Dark grey text */
+    color: white; /* Dark grey text */
+}
+
+.about-me-new-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-me-new-left {
+    flex-shrink: 0;
+}
+
+.about-me-new-image-placeholder {
+    width: 350px;
+    height: 350px;
+    background-color: #cee2e9; /* Light blue-grey from image */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-new-right {
+    flex-grow: 1;
+    max-width: 600px;
+    text-align: left;
+    background-color: #fff; /* White background for the right container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-new-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.about-me-new-role {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.about-me-new-description {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-me-new-quote {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+    color: #ff8c00; /* Orange for emphasis */
+    margin-bottom: 5px;
+}
+
+.about-me-new-mantra {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Responsive styles for the new section */
+@media (max-width: 768px) {
+    .about-me-new-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me-new-left,
+    .about-me-new-image-placeholder {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .about-me-new-right {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .about-me-new-name {
+        font-size: 30px;
+    }
+
+    .about-me-new-role {
+        font-size: 18px;
+    }
+
+    .about-me-new-description,
+    .about-me-new-quote,
+    .about-me-new-mantra {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-me-new-image-placeholder {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me-new-name {
+        font-size: 24px;
+    }
+
+    .about-me-new-role {
+        font-size: 16px;
+    }
+
+    .about-me-new-description,
+    .about-me-new-quote,
+    .about-me-new-mantra {
+        font-size: 13px;
+    }
 }
