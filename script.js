@@ -18,3 +18,15 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
+// DARK MODE 
+
+const darkModeToggle = document.getElementById('darkModeToggle');
+darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+        darkModeToggle.textContent = 'Light';
+    } else {
+        darkModeToggle.textContent = 'Dark';
+    }
+});
+

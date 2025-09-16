@@ -391,6 +391,7 @@ img {
     font-size: 30px;
     font-family: "Electrolize", sans-serif;
     font-weight: 600;
+    padding-bottom: 30px;
 }
 
 [data-scroll-container] {
@@ -398,10 +399,22 @@ img {
 }
 
 #my_work {
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Electrolize", sans-serif;
     font-weight: 600;
+    padding-bottom: 30px;
 }
+
+#line {
+    height: 2.5px;
+    width: 190px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+/* #line:hover {
+    width: 180px;
+} */
 
 .empty-section {
     padding: 80px 20px;
@@ -877,6 +890,10 @@ img {
     flex-wrap: wrap;
 }
 
+body.dark-mode .about-me-new-section {
+    background-color: #1a1a1a;
+}
+
 .about-me-title {
     font-family: 'Poppins', sans-serif;
     font-size: 80px;
@@ -1089,5 +1106,216 @@ img {
         grid-template-columns: 1fr;
         /* 1 column on extra small screens */
         max-width: 300px;
+    }
+}
+
+
+
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0; /* Set a general light text color */
+}
+
+body.dark-mode header {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode nav ul {
+    background-color: #333;
+}
+
+body.dark-mode nav ul li a {
+    color: #f0f0f0;
+}
+
+body.dark-mode nav ul li a:hover {
+    color: #bb86fc;
+}
+
+body.dark-mode .dark-mode-toggle {
+    background-color: #bb86fc;
+    color: #1a1a1a;
+    border: 1px solid #bb86fc;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+    background-color: #9a67ea;
+}
+
+body.dark-mode .hero-section::before {
+    background-image: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url('grid.svg');
+}
+
+/* Specific text color adjustments for dark mode */
+body.dark-mode .location,
+body.dark-mode .hero-section h1,
+body.dark-mode .description,
+body.dark-mode .social-links a,
+body.dark-mode .tech-stack-section,
+body.dark-mode .tech-stack-section h2,
+body.dark-mode .tech-item h3,
+body.dark-mode .tech-item p,
+body.dark-mode .personal-projects-section,
+body.dark-mode .personal-projects-section h2,
+body.dark-mode .project-card h3,
+body.dark-mode .project-description,
+body.dark-mode .about-me-new-section,
+body.dark-mode .about-me-new-section p,
+body.dark-mode .contact-section,
+body.dark-mode .contact-left .tagline,
+body.dark-mode .contact-form label {
+    color: #f0f0f0 !important;
+}
+
+body.dark-mode .social-links a:hover {
+    color: #bb86fc;
+}
+
+body.dark-mode .tech-stack-section {
+    background-color: #1a1a1a;
+}
+
+body.dark-mode .personal-projects-section {
+    background-color: #1a1a1a;
+}
+
+body.dark-mode .tech-item {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-color: #555;
+}
+
+body.dark-mode .tech-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .project-card {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-color: #555;
+}
+
+body.dark-mode .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .tech-tags span {
+    background-color: #555;
+    color: #f0f0f0;
+    border-color: #777;
+}
+
+body.dark-mode .project-links .link-btn {
+    background-color: #555;
+    color: #f0f0f0;
+    border-color: #777;
+}
+
+body.dark-mode .project-links .link-btn:hover {
+    background-color: #bb86fc;
+    color: #1a1a1a;
+    border-color: #bb86fc;
+}
+
+body.dark-mode #line {
+    background-color: #f0f0f0;
+}
+
+body.dark-mode .about-me-new-section .about-me-tagline span {
+    color: #bb86fc !important;
+}
+
+body.dark-mode .about-me-new-section .about-me-description-main span {
+    color: #bb86fc !important;
+}
+
+body.dark-mode .contact-left .greeting {
+    color: #bb86fc !important;
+}
+
+body.dark-mode .mail-info {
+    background-color: #333;
+    border-color: #555;
+}
+
+body.dark-mode .mail-info .mail-icon,
+body.dark-mode .mail-info a {
+    color: #bb86fc !important;
+}
+
+body.dark-mode .contact-right {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-color: #555;
+}
+
+body.dark-mode .contact-right .send-message-heading {
+    color: #bb86fc !important;
+}
+
+body.dark-mode .contact-form input[type="text"],
+body.dark-mode .contact-form input[type="email"],
+body.dark-mode .contact-form textarea {
+    background-color: #555;
+    border-color: #777;
+    color: #f0f0f0;
+}
+
+body.dark-mode .contact-form input[type="text"]::placeholder,
+body.dark-mode .contact-form input[type="email"]::placeholder,
+body.dark-mode .contact-form textarea::placeholder {
+    color: #ccc;
+}
+
+body.dark-mode .contact-form .send-btn {
+    background-color: #bb86fc;
+    color: #1a1a1a;
+    border-color: #bb86fc;
+}
+
+body.dark-mode .contact-form .send-btn:hover {
+    background-color: #9a67ea;
+    border-color: #9a67ea;
+}
+
+/* Dark Mode Toggle Button Styling */
+.dark-mode-toggle {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 20px;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #e07b00;
+}
+
+@media (max-width: 768px) {
+    .dark-mode-toggle {
+        margin-top: 10px;
+        margin-left: 0;
+        width: fit-content;
+    }
+
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dark-mode-toggle {
+        font-size: 14px;
+        padding: 8px 15px;
     }
 }
